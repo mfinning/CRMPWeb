@@ -6,9 +6,17 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
-nav li
+body
 {
- 	display:inline;	
+   background-image: url(../images/purty_wood.png)	
+}
+
+
+#topnav li
+{
+ 	display:inline;
+	background-color:rgb(204,204,153);
+	margin:auto;
 }
 article
 {
@@ -35,9 +43,9 @@ h1
 /* =============================================================================
    Page Styles
    ========================================================================== */
- .contaner
- {
-	 background-image: url(../images/purty_wood.png)
+ .container
+ { background-color:rgb(176,147,68)
+
  }
  .mont
  {
@@ -49,6 +57,7 @@ h1
 /*======================================================================
 	Gallery
 =====================================================================*/   
+/*
 html, body{
 margin:0;
 padding:0;
@@ -69,11 +78,12 @@ display:inline-block;
 border:none;
 overflow:hidden;
 }
-
+*/
+/*
 :focus{
 outline:none;
 }
-
+*/
 .gallery{
 margin:20px auto;
 width:900px;
@@ -82,7 +92,8 @@ position:relative;
 }
 
 
-a{
+
+a {
 display:inline-block;
 width:200px;
 height:141px;
