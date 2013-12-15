@@ -36,7 +36,8 @@ aside
 
 header
 {
-	background-color:rgb(51,51,204)
+	background-color:rgb(51,51,204);
+	background-position:center;
 	
 }
 #link li 
