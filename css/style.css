@@ -15,17 +15,21 @@ html, body{
 	background-repeat:repeat;
 	-moz-background-attachment: fixed;
 }
-
+#container
+ { background-color:rgb(226,197,147);
+  
+ }
 
 #topnav li
 {
-	width: 100%;
+	height:100px;
+	width: 250px;
 	line-height: 100%;
 	display: inline;
-	
 	margin: auto;
 	font-size: 36px;
-	box-sizing: inherit;
+	background-color:rgb(181,173,150);
+	background-size:cover;
 }
 
 footer
@@ -42,7 +46,6 @@ display: inline-block;
 width:200px;
 height:141px;
 position:relative;
-
 -moz-box-sizing:border-box;
 -webkit-box-sizing:border-box;
 box-sizing:border-box;
@@ -59,8 +62,10 @@ box-sizing:border-box;
  }
   
 #form{
-	 background-image:url(../images/backgrd.png);
+	 background-image: url(../images/forest89ocp.jpg);
 	 color: rgb(204,204,204);
+	 margin-left:auto;
+	 margin-right:auto;
 	 }
 article
 {
@@ -69,12 +74,27 @@ article
 	background-color:rgb(180,172,150);
 }
 
+#list,ol
+{ 
+background-color:rgb(180,172,151);
+font-size:1.5em;
+text-decoration:underline;
+font-family:font-family: unifrakturcook, blackletter;
+  	
+}
+ul
+{
+	background-color:rgb(102,153,51);
+}
+
 
 aside
 {
 	text-align:justify;
-	display:none;
+	border:5px #993 groove;
 	background-color:rgb(180,172,150);
+	border-radius:10px 0px 10px 0px;
+	
 }
  	
 
@@ -95,24 +115,22 @@ header
 h1,h2
 { 
 	text-align:center;
+	font-family:font-family: 'Griffy', cursive;
 }
 
 p
 {
 	color: rgb(51,102,51);
 	text-shadow: inherit;
+	font-size:1.5;
 }
- 
-#container
- { 
-   background-color:rgb(51,51,51);
-	
-	
- }
-.mont
- {
-	 background-color:rgb(176,147,68);
-	 border-style:5px double;
+
+#monit
+
+ { padding:5px; 
+ 	font-size:2.5em;
+	background-color: rgb(229,178,105);	
+	 
  }
  
    
@@ -269,9 +287,8 @@ top:-295px;
 /* =============================================================================
    Font-Face
    ========================================================================== */
-/* This is the proper syntax for an @font-face file
-
-/* @font-face {
+/* This is the proper syntax for an @font-face file*/
+ @font-face {
 font-family: 'FontName';
 src: url('../fonts/FontName.eot');
 src: url('../fonts/FontName.eot?iefix') format('embedded-opentype'),

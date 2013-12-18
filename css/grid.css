@@ -128,7 +128,9 @@ Licensed under GPL and MIT
 
 	/* Images & Other Objects */
 	img, object, embed {	max-width: 100%;}
-	img { height: auto; }
+	img {
+	height: inherit;
+}
 
 
 /* =============================================================================
