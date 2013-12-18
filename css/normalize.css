@@ -20,7 +20,8 @@ main,
 nav,
 section,
 summary {
-    display: block;
+	display: block;
+	background-image: url(../images/forest89ocp.jpg);
 }
 
 /**
