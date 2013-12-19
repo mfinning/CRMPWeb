@@ -22,8 +22,8 @@ html, body{
 
 #topnav li
 {
-	height:100px;
-	width: 250px;
+	height:50px;
+	width: 60px;
 	line-height: 100%;
 	display: inline;
 	margin: auto;
