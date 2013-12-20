@@ -114,6 +114,7 @@ header
 }
 h1,h2
 { 
+	text-size: 1.0em;
 	text-align:center;
 	font-family:font-family: 'Griffy', cursive;
 }
@@ -122,7 +123,7 @@ p
 {
 	color: rgb(51,102,51);
 	text-shadow: inherit;
-	font-size:1.5;
+	font-size:1.5em;
 }
 
 #monit
