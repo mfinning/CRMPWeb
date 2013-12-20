@@ -16,8 +16,8 @@ html, body{
 	-moz-background-attachment: fixed;
 }
 #container
- { background-color:rgb(226,197,147);
-  
+ {
+	background-color: rgb(136,96,45);  
  }
 
 #topnav li
@@ -35,7 +35,7 @@ html, body{
 footer
 {
 	border:5px #CBCC99 groove;
-	background-color:rgb(51,51,0);
+	background-color: rgb(119,120,90);
 	width:85%;
 	position: static;
 }
@@ -49,6 +49,10 @@ position:relative;
 -moz-box-sizing:border-box;
 -webkit-box-sizing:border-box;
 box-sizing:border-box;
+}
+h6
+{
+	color:rgb(0,0,0)
 }
 
 /* =============================================================================
@@ -84,13 +88,12 @@ font-family:font-family: unifrakturcook, blackletter;
 }
 ul
 {
-	background-color:rgb(102,153,51);
 }
 
 
 aside
 {
-	text-align:justify;
+	text-align: left;
 	border:5px #993 groove;
 	background-color:rgb(180,172,150);
 	border-radius:10px 0px 10px 0px;
@@ -121,17 +124,23 @@ h1,h2
 
 p
 {
-	color: rgb(51,102,51);
+	color: rgb(0,0,51);
 	text-shadow: inherit;
-	font-size:1.5em;
+	font-size: medium;
+	padding: 2px 2px 2px 2px;
 }
 
 #monit
 
  { padding:5px; 
- 	font-size:2.5em;
+ 	font-size:1.5;
 	background-color: rgb(229,178,105);	
 	 
+ }
+ #hist
+ {
+	 border: 3px inset rgb(50,51,204);
+	 background:rgb(239,205,147); 
  }
  
    

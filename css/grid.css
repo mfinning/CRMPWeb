@@ -72,7 +72,9 @@ Licensed under GPL and MIT
 	.container .grid_9 {width: 721px;}
 	.container .grid_10 {width: 804px;}
 	.container .grid_11 {width: 887px;}
-	.container .grid_12 {width: 970px;}
+	.container .grid_12 {
+	width: 100 px;
+}
 
 	/* Prefix Extra Space */
 	.container .prefix_1 {padding-left: 83px;}
