@@ -288,10 +288,20 @@ top:-295px;
 @media only screen and (max-width: 767px) {}
 
 /* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	{
+		border:none;
+	
+	}
 
 /* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+	{
+		background:none;
+		border:none;
+	
+	
+	}
 
 
 /* =============================================================================
